@@ -1,10 +1,5 @@
 # sqlite3_arabic_tokenizer
 
-[![CI Status](https://img.shields.io/travis/Shahriar Nasim Nafi/sqlite3_arabic_tokenizer.svg?style=flat)](https://travis-ci.org/Shahriar Nasim Nafi/sqlite3_arabic_tokenizer)
-[![Version](https://img.shields.io/cocoapods/v/sqlite3_arabic_tokenizer.svg?style=flat)](https://cocoapods.org/pods/sqlite3_arabic_tokenizer)
-[![License](https://img.shields.io/cocoapods/l/sqlite3_arabic_tokenizer.svg?style=flat)](https://cocoapods.org/pods/sqlite3_arabic_tokenizer)
-[![Platform](https://img.shields.io/cocoapods/p/sqlite3_arabic_tokenizer.svg?style=flat)](https://cocoapods.org/pods/sqlite3_arabic_tokenizer)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
