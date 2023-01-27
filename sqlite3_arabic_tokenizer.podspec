@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sqlite3_arabic_tokenizer'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'sqlite3_arabic_tokenizer is a FTS5 extension to tokenizer arabic thus removing diacritics'
 
   s.description      = <<-DESC
