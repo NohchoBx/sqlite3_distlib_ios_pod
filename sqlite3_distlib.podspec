@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target  = '10.13'
   s.source_files = 'sqlite3_distlib/Common/*.{h,c,cpp,hpp}'
   s.requires_arc = false
-  s.public_header_files = 'sqlite3_distlib/Common/RegistExt.hpp'
+  s.public_header_files = 'sqlite3_distlib/Common/RegistExt.h'
 
 end
