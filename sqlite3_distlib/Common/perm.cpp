@@ -35,7 +35,7 @@ SOFTWARE.
 #include <cstdlib>
 
 #include "RegistExt.h"
-#include "../../../../../../distlib-main/utf8_unicode.hpp"
+#include "utf8_unicode.hpp"
 #include <assert.h>
 #include <memory.h>
 

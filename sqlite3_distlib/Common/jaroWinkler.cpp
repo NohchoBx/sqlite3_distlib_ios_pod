@@ -5,8 +5,8 @@
 #include <vector>
 #include <algorithm>
 
-#include "../../../../../../distlib-main/jaroWinkler.hpp"
-#include "../../../../../../distlib-main/utf8_unicode.hpp"
+#include "jaroWinkler.hpp"
+#include "utf8_unicode.hpp"
 
 using std::string;
 using std::vector;
