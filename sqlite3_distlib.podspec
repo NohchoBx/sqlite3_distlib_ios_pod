@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.author           = { 'NohchoDev' => 'nohchodev@gmail.com' }
   s.source           = { :git => 'https://github.com/NohchoBx/sqlite3_distlib_ios_pod.git', :tag => s.version.to_s }
   s.prepare_command = <<-CMD
-          cd sqlite3_distlib/Common/
-  make RegistExt.cpp
+    cd sqlite3_distlib/Common/
+    g++ -c RegistExt.cpp -o RegistExt.o
   CMD
 
   s.ios.deployment_target  = '11.0'
   s.osx.deployment_target  = '10.13'
-  s.source_files = 'sqlite3_distlib/Common/*.{h,c,cpp,hpp}'
+  s.source_files = 'sqlite3_distlib/Common/*.{h,c,cpp,hpp,o}'
   s.requires_arc = false
   s.public_header_files = 'sqlite3_distlib/Common/RegistExt.h'
 
