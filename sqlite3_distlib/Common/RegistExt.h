@@ -29,10 +29,9 @@ SOFTWARE.
 */
 
 #include "sqlite3ext.h"
-#ifdef __cplusplus
 #include <string>
 #include "pylcs.hpp"
-#endif
+
 
 // C++ functions must be declared before extern "C" !!!
 

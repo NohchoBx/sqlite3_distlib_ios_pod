@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sqlite3_distlib'
-  s.version          = '0.0.8'
+  s.version          = '0.1.0'
   s.summary          = 'sqlite3_distlib is an extension that allows to query based on the score of ressemblance given'
 
   s.description      = <<-DESC
