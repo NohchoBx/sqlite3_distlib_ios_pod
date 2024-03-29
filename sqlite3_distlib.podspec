@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'sqlite3_distlib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'sqlite3_distlib is an extension that allows to query based on the score of ressemblance given'
 
   s.description      = <<-DESC
@@ -26,8 +26,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target  = '11.0'
   s.osx.deployment_target  = '10.13'
-  s.source_files = 'sqlite3_distlib/Common/*.{h,cpp,hpp}'
+  s.source_files = 'sqlite3_distlib/Common/*.{h,c,cpp,hpp}'
   s.requires_arc = false
   s.public_header_files = 'sqlite3_distlib/Common/RegistExt.h'
+  s.pod_target_xcconfig = {
+    'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default',
+    'CLANG_CXX_LIBRARY' => 'libc++',
+    'OTHER_LDFLAGS' => '$(inherited) -ObjC'
+}
 
 end
